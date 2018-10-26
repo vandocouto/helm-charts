@@ -6,3 +6,4 @@ image:
   pullSecret:
 service:
   type: NodePort
+  nodePort: 31555

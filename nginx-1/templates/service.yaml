@@ -15,7 +15,7 @@ spec:
   clusterIP: 
   externalTrafficPolicy: Cluster
   ports:
-  - nodePort: 31100
+  - nodePort: {{ .Values.service.nodePort }}
     port: 80
     protocol: TCP
     targetPort: 80
